@@ -12,5 +12,6 @@ os.chdir(folder_selected)
 
 for file in directory:
     os.startfile(file, "print")
+    time.sleep(1)
 
 
